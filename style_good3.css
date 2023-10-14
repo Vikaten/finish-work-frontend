@@ -1,0 +1,60 @@
+.img5 {
+    width: 300px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.img6 {
+    width: 400px;
+    position: absolute;
+    top: 0px;
+    left: 650px;
+}
+
+.font1 {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 48px;
+    right: 900px;
+    top: 25px;
+}
+
+.font2 {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    left: 510px;
+    bottom: 45px;
+    right: 80px;
+}
+
+.p1 {
+    font-family: 'Kavoon', serif;
+    position: absolute;
+    font-size: 80px;
+    color: #A9A2C2;
+    top: 150px;
+    left: 278px;
+}
+
+.colortext {
+    color: #B2FE28;
+}
+
+.flower1 {
+    position: absolute;
+    top: 80px;
+    left: 1280px;
+    width: 100px;
+    animation: flowers 1s linear infinite;
+}
+
+@keyframes flowers {
+    from {
+      transform: rotate(360deg);
+    }
+  }

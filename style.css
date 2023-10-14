@@ -1,0 +1,462 @@
+.font {
+    font-family: 'Kavoon', serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    text-align: center;
+}
+
+.flower1 {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 100px;
+    animation: flowers 1s linear infinite;
+}
+
+/* .flower1:hover {
+    animation: flowers 1s linear infinite;
+    animation: flowers infinite;
+} */
+
+@keyframes flowers {
+    from {
+      transform: rotate(360deg);
+    }
+  }
+
+.gradient {
+    height: 730px;
+    width: 100%;
+    min-width: 100%;
+    background: linear-gradient(149deg, #B2FE28 0%, #A9A2C2 42%, #8BA8A7 72%, #D9D9D9 100%);
+    animation: gradient 5s infinite linear;
+    background-size: 800%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+
+.line1 {
+    width: 200px;
+    position: absolute;
+    top: 14%;
+    left: 94px;
+}
+
+.line2 {
+    width: 610px;
+    position: absolute;
+    top: 79em;
+    left: 26em;
+    rotate: -10deg;
+}
+
+.line3 {
+    width: 550px;
+    position: absolute;
+    top: 120em;
+    left: 480px;
+    rotate: 20deg;
+}
+
+.line4 {
+    width: 610px;
+    position: absolute;
+    top: 170em;
+    left: 26em;
+    rotate: -10deg;
+}
+
+.milk1 {
+    width: 180px;
+    position: absolute;
+    top: 990px;
+    left: 220px
+}
+
+.milk2 {
+    width: 180px;
+    position: absolute;
+    top: 109em;
+    left: 62em;
+}
+
+.milk3 {
+    width: 150px;
+    position: absolute;
+    top: 153em;
+    left: 290px
+}
+
+.milk4 {
+    width: 100px;
+    position: absolute;
+    top: 205em;
+    left: 65em;
+}
+
+.text1 {
+    font-family: 'Kavoon', serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 730px;
+    top: 27.4em;
+}
+
+.text2 {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 730px;
+    top: 38em;
+}
+
+.text3 {
+    font-family: 'Kavoon', serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 130px;
+    top: 46.2em;
+}
+
+.text4 {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 130px;
+    top: 63em;
+}
+
+.text5 {
+    font-family: 'Kavoon', serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 729px;
+    top: 65.2em;
+}
+
+.text6 {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 729px;
+    top: 88.4em;
+}
+
+.text7 {
+    font-family: 'Kavoon', serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 130px;
+    top: 85em;
+}
+
+.text8 {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 130px;
+    top: 115em;
+}
+
+.texts {
+    line-height: 1px;
+    text-decoration: none;
+}
+
+.texts a {
+    text-decoration: none;
+}
+
+.texts a :hover {
+    color: #B2FE28;
+    
+}
+
+.i_deserve {
+    font-family: 'Kavoon', serif;
+    font-size: 100px;
+    color: #ffffff;
+    text-align: center;
+    /* align-items: center; */
+    position: absolute;
+    top: 41em;
+    left: 140px;
+    right: 140px;
+}
+
+.select {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    top: 3342px;
+    border: px solid #A9A2C2;
+    background-color: #A9A2C2;
+    margin: 0px;
+}
+
+.our_products {
+    font-family: 'Manrope', sans-serif;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    top: 162em;
+    text-align: center;
+    left: 240px;
+    right: 240px;
+}
+
+.milk1_1 {
+    width: 110px;
+    top: 200em;
+    padding-left: 70px;
+    z-index: 2;
+}
+
+.milk2_1 {
+    width: 110px;
+    padding-left: 10px;
+    padding-right: 50px;
+    top: 200em;
+    z-index: 2;
+}
+
+.milk4_1 {
+    width: 50px;
+    top: 200em;
+    padding-right: 73px;
+    z-index: 2;
+}
+
+.milks {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 540ex;
+}
+
+.text_good1 {
+    font-family: 'Kavoon', serif;
+    font-size: 16px;
+    color: white;
+}
+
+.dollar1 {
+    width: 9px;
+    line-height: 1.1em;
+}
+
+.price1 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+}
+
+.stars1 {
+    width: 70px;
+}
+
+.text_good2 {
+    font-family: 'Kavoon', serif;
+    font-size: 16px;
+    color: white;
+}
+
+.dollar2 {
+    width: 9px;
+    line-height: 1.1em;
+}
+
+.price2 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+}
+
+.stars2 {
+    width: 70px;
+}
+
+.star_dollar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text_good3 {
+    font-family: 'Kavoon', serif;
+    font-size: 16px;
+    color: white;
+}
+
+.dollar3 {
+    width: 9px;
+    line-height: 1.1em;
+}
+
+.price3 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    color: white;
+}
+
+.stars3 {
+    width: 70px;
+}
+
+.star_dollar_in1 {
+    padding-left: 67px;
+}
+
+.star_dollar_in3 {
+    padding-right: 34px;
+}
+
+.marquee {
+    font-family: 'Kavoon', serif;
+    font-size: 25px;
+    position: relative;
+    z-index: 1;
+    color: #B2FE28;
+    bottom: 5em;
+    z-index: 1;
+}
+
+.good_luck {
+    font-family: 'Kavoon', serif;
+    font-size: 45px;
+    color: white;
+    padding-left: 80px;
+    padding-top: 110px;
+    padding-bottom: 50px;
+}
+
+.figure {
+  width: 100%;
+  height: 290px;
+  position: relative;
+  z-index: 1;
+}
+
+.if_you {
+    font-family: 'Kavoon', serif;
+    font-size: 21px;
+    color: white;
+    position: absolute;
+    padding-left: 80px;
+    top: 290em;
+    z-index: 2;
+}
+
+.form {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    color: rebeccapurple;
+    position: absolute;
+    top: 513em;
+    /* z-index: ; */
+    padding-left: 80px;
+}
+
+.form_input,
+.form_button {
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    color: rebeccapurple;
+    
+}
+  
+.form_group2 {
+    width: 210%;
+    padding: 0 0 10px 0;
+    position: absolute;
+    z-index: 2;
+    left: 270px;
+    top: 0px; 
+}
+
+.form_group1 {
+    width: 210%;
+    padding: 0 0 10px 0;
+    position: absolute;
+    z-index: 2;
+    left: 81px;
+    top: 0px; 
+}
+
+.form_button {
+    width: 75px;
+    height: 27px;
+    position: absolute;
+    z-index: 2;
+    left: 460px;
+    top: 0px;
+    border: none;
+    background-color: #A9A2C2;
+    color: white;
+    outline: none;
+}
+
+.form_label {
+   position: absolute;
+}
+
+.form_input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-bottom: 0px solid #A9A2C2;
+    outline: none;
+    transition: 0.3s;
+} 
+
+.goods_up {
+    font-family: 'Kavoon', serif;
+    font-size: 21px;
+    color: white;
+    position: absolute;
+    padding-left: 980px;
+    top: 6131px;
+    z-index: 2;
+}
+
+.flower_bottom {
+    position: absolute;
+    bottom: -20px;
+    left: 1320px;
+    width: 100px;
+    animation: flowers 1s linear infinite;
+}
+
+@keyframes flowers {
+    from {
+      transform: rotate(360deg);
+    }
+  }
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
